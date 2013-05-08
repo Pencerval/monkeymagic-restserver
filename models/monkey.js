@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-mongoose.connect('localhost', 'monkey');
 
 var monkeySchema = mongoose.Schema({
     name   : {type : String, required : true},
