@@ -12,7 +12,7 @@ app.get('/monkey', monkey.findAll);
 app.get('/monkey/:id', monkey.findById);
 app.post('/monkey', monkey.addModel);
 app.put('/monkey/:id', monkey.updateModel);
-app.delete('/monkey/:id', monkey.deleteModel);
+app.delete('/monkey/:id' , monkey.deleteModel);
 
 
 var port = (process.env.VMC_APP_PORT || 3000);
